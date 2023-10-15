@@ -1,0 +1,93 @@
+.typing-animation {
+    font-family: Arial, sans-serif;
+    font-size: 70px;
+    padding: 120px 50px 50px 50px;
+    display: inline-block;
+    /* border: 2px solid #333; */
+    /* background-color: #fff; */
+    overflow: hidden;
+    color: white;
+  }
+
+  @media(max-width:916px){
+    .typing-animation {
+      font-family: Arial, sans-serif;
+      font-size: 50px;
+      padding: 40px 40px 40px 40px;
+      display: inline-block;
+      /* border: 2px solid #333; */
+      /* background-color: #fff; */
+      overflow: hidden;
+      color: white;
+    }
+  }
+
+  @media(max-width:821px){
+    .typing-animation {
+      font-family: Arial, sans-serif;
+      font-size: 50px;
+      padding: 40px 40px 40px 40px;
+      display: inline-block;
+      /* border: 2px solid #333; */
+      /* background-color: #fff; */
+      overflow: hidden;
+      color: white;
+    }
+  }
+
+  @media(max-width:550px){
+    .typing-animation {
+      font-family: Arial, sans-serif;
+      font-size: 50px;
+      padding: 40px 40px 40px 40px;
+      display: inline-block;
+      /* border: 2px solid #333; */
+      /* background-color: #fff; */
+      overflow: hidden;
+      color: white;
+    }
+  }
+
+  @media(max-width:416px){
+    .typing-animation {
+      font-family: Arial, sans-serif;
+      font-size: 25px;
+      padding: 40px 40px 40px 40px;
+      display: inline-block;
+      /* border: 2px solid #333; */
+      /* background-color: #fff; */
+      overflow: hidden;
+      color: white;
+    }
+  }
+  @media(max-width:290px){
+    .typing-animation {
+      font-family: Arial, sans-serif;
+      font-size: 25px;
+      padding: 40px 40px 40px 40px;
+      display: inline-block;
+      /* border: 2px solid #333; */
+      /* background-color: #fff; */
+      overflow: hidden;
+      color: white;
+    }
+  }
+  
+  .typed-text {
+    display: inline-block;
+  }
+  
+  .cursor {
+    display: inline-block;
+    animation: cursorBlink 1s infinite;
+  }
+  
+  @keyframes cursorBlink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
